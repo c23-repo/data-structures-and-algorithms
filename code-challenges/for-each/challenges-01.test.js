@@ -31,8 +31,8 @@ Return the modified array.
 const addValues = (arr, value) => arr.push(value);
 
 const addNumbers = (num, arr, times, callback) => {
-  for (let i = 0; i < times; i++){
-    callback(arr,num);
+  for (let i = 0; i < times; i++) {
+    callback(arr, num);
   }
   return arr;
 };
@@ -49,13 +49,13 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const removeOne = (num, arr) => {
-  if (num % 3 === 2){
+  if (num % 3 === 2) {
     arr.pop();
   }
 };
 
 const removeElements = (arr, callback) => {
-  for (let i = 0; i < arr.length; i++){
+  for (let i = 0; i < arr.length; i++) {
     callback(arr[i], arr);
   }
   return arr;
@@ -83,10 +83,11 @@ This anonymous function should accept up to three arguments: the element, the in
 ------------------------------------------------------------------------------------------------ */
 
 const removeWithAnon = (arr) => {
-  arr.forEach(function(element, index, arr){
+  arr.forEach(function (element, index, arr) {
     // removeOne(element, arr);
-    if (element % 3 === 2){
-      arr.pop()};
+    if (element % 3 === 2) {
+      arr.pop()
+    };
   });
   return arr;
 };
@@ -110,13 +111,13 @@ This function should use forEach to populate your grocery list based on the stor
 
 const createList = (availableItems) => {
   let inventory = [];
-    availableItems.forEach(function(element){
-      if (element.available){
-        inventory.push(element.name);
-      }
-    });
-    return inventory;
-  };
+  availableItems.forEach(function (element) {
+    if (element.available) {
+      inventory.push(element.name);
+    }
+  });
+  return inventory;
+};
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7
