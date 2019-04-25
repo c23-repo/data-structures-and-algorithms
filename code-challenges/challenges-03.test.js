@@ -103,6 +103,8 @@ For example, [1, 14, 0.2, -281, 54782] is only correctly sorted in that order.
 
 const sortNumbersByLength = (arr) => {
   // Solution code here...
+  arr.sort((a, b) => a.toString().length - b.toString().length);
+  return arr;
 };
 
 /*-----------------------------------------------------------------------------------------------
@@ -125,6 +127,19 @@ const people = [
 
 const sortPeople = (arr) => {
   // Solution code here...
+  arr.sort((a, b) => {
+    let lastNameA = a.lastName.toUpperCase();
+    let lastNameB = b.lastName.toUpperCase();
+    if (lastNameA < lastNameB) {
+      return -1;
+    } else if (lastNameA > lastNameB) {
+      return 1;
+    } else {
+      return 0;
+    }
+
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -139,6 +154,32 @@ If two people have the same full name, the younger one should come first. Do not
 
 const sortPeopleBetter = (arr) => {
   // Solution code here...
+  arr.sort((a, b) => {
+    let lastNameA = a.lastName.toUpperCase();
+    let lastNameB = b.lastName.toUpperCase();
+    let firstNameA = a.firstName.toUpperCase();
+    let firstNameB = b.firstName.toUpperCase();
+    if (lastNameA < lastNameB) {
+      return -1;
+    } else if (lastNameA > lastNameB) {
+      return 1;
+    } else {
+      if (firstNameA < firstNameB) {
+        return -1;
+      } else if (firstNameA > firstNameB) {
+        return 1;
+      } else {
+        if (a.age < b.age) {
+          return -1;
+        } else if (a.age > b.age) {
+          return 1;
+        } else {
+          return 0;
+        }
+      }
+    }
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -165,8 +206,14 @@ const meetings = [
 
 const sortMeetingsByDay = (arr) => {
   // Solution code here...
-};
-
+  let weekOrder = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+  arr.sort((a, b) => {
+    let dayA = a.dayOfWeek;
+    let dayB = b.dayOfWeek;
+    return (weekOrder.indexOf(dayA)) - (weekOrder.indexOf(dayB));
+  });
+  return arr;
+}
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 10 - Stretch Goal
 
@@ -179,6 +226,24 @@ You DO NOT need to use your solution to Challenge 9 in completing Challenge 10.
 
 const sortSchedule = (arr) => {
   // Solution code here...
+  arr.sort((a, b) => {
+    if (a.start < b.start) {
+      return -1;
+    } else if (a.start > b.start) {
+      return 1;
+    } else {
+      arr.sort((a, b) => {
+        if (a.end < b.end){
+          return -1;
+        } else if (a.end > b.end) {
+          return 1;
+        } else {
+          return 0;
+        }
+      }
+      )}
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
