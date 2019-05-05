@@ -67,7 +67,10 @@ let starWarsData = [{
 }];
 
 const returnNames = (arr) => {
-  // Solution code here...
+  return arr.reduce((ansSoFar, current) => {
+    ansSoFar.push(current.name);
+    return ansSoFar;
+  },[]);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -78,9 +81,8 @@ Write a function named reversedString that takes in a string and returns a strin
 Note: You must use reduce for this challenge. You may not use the built-in .reverse() string method.
 ------------------------------------------------------------------------------------------------ */
 
-const reversedString = (arr) => {
-  // Solution code here...
-};
+const reversedString = (str) =>  str.split('').reduce( (ansSoFar, current) => current + ansSoFar);
+  
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -132,7 +134,14 @@ const characters = [
 ];
 
 const countNumberOfChildren = (arr) => {
-  // Solution code here...
+  return arr.reduce((accumulator, currentValue) => {
+    if (currentValue.hasOwnProperty('children')) {
+      return accumulator + currentValue.children.length;
+    } else {
+      return accumulator;
+    }
+
+  }, 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -144,9 +153,8 @@ Hint: The accumulator should begin as { count: 0, sum: 0 }
 ------------------------------------------------------------------------------------------------ */
 
 const calculateAverage = (arr) => {
-  // Solution code here...
+  return arr.reduce((accumulator, currentValue) => accumulator + currentValue, 0) / arr.length;
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -165,7 +173,13 @@ const isPrime = (value) => {
 };
 
 const countPrimeNumbers = (arr) => {
-  // Solution code here...
+  return arr.reduce((accumulator, currentValue) => {
+    if(isPrime(currentValue) === true){
+      return accumulator +1;
+    } else{
+      return accumulator;
+    }
+  }, 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
