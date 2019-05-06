@@ -48,7 +48,7 @@ const divisibleByFiveTwoToThePower = (input) => {
   if (input === []){
     return [];
   } else{
-    return input.map(element => element.filter(element => element%5 === 0).map(element => Math.pow(2, element)));
+    return input.map(element => element.filter(element => element%5 === 0  && typeof element === 'number').map(element => Math.pow(2, element)));
   }
 };
 
@@ -115,9 +115,13 @@ let starWarsData = [{
 }];
 
 let findMaleAndFemale = (data) => {
-  if (data.gender === 'male' || data.gender === 'female'){
-    let char = data.map(element => element.name)
-  }
+    let char = data.map(element => {
+      if (element.gender === 'male' || element.gender === 'female'){
+        return element.name;
+      }
+    }).filter(element => element !== undefined).join(' and ');
+    return char;
+    
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -127,7 +131,14 @@ Write a function named findShortest that, given the Star Wars data from Challeng
 ------------------------------------------------------------------------------------------------ */
 
 let findShortest = (data) => {
-  // Solution code here...
+  let char = data.map(element => parseInt(element.height)).reduce((min,currentValue) => {
+    if (min < currentValue){
+      return min;
+    } else{
+      return currentValue;
+    }
+  });
+  return data.filter(element => element.height === `${char}`)[0].name;
 };
 
 /* ------------------------------------------------------------------------------------------------
