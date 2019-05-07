@@ -91,8 +91,16 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  // Solution code here...
-
+  let hasChild = false;
+  arr.forEach(person => {
+    let char = Object.values(person)
+    if(person.name === character){
+      if(char[2].length > 0){
+        hasChild = true;  
+      }
+    }
+  });
+  return hasChild;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -116,15 +124,15 @@ Write a function named totalCharacters that takes in an array and returns the nu
 const totalCharacters = (arr) => {
   // Solution code here...
   let ans = 0;
-  for (let i = 0; i < arr.length; i++) {
-    for (let item of Object.entries(arr[i])){
-      if (item[0] === 'spouse' && item[1]){
-        ans++;
-      } else if (item[0] === 'children'){
-        ans +=item[1].length;
-      }
+  Object.values(arr).forEach(person => {
+    ans++;
+    if (person.spouse) {
+      ans++;
     }
-  }
+    if (person.children) {
+      ans += person.children.length;
+    }
+  });
   return ans;
 };
 
