@@ -36,13 +36,12 @@ Here is sample data for the 9:00 sales: { sales: '88 cookies', time: '9 a.m.' }.
 Write a function named salesData that uses forEach to iterate over the hourlySales array and create an object for each hour. Return an array of the formatted data.
 ------------------------------------------------------------------------------------------------ */
 
-const salesData = (hours, stores) => {
-  return stores.map((element, i) => {
-    let hourlySale = {};
-    hourlySale['sales'] = `${element} cookies`;
-    hourlySale['time'] = hours[i];
-    return hourlySale;
+const salesData = (hours, data) => {
+  let hourlySale = [];
+  hours.forEach((hour, index) => {
+    hourlySale.push({ sales: `${data[index]} cookies`, time: hour });
   });
+  return hourlySale;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -63,9 +62,12 @@ const errands = [
   }
 ];
 
+// collaberated with chai and luke
+
 const howManyTreats = (arr) => {
-  // Solution code here...
+  return arr.reduce((accumulator, currentValue) => currentValue.store === 'Pet store' ? currentValue.items[1].quantity : null)
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -85,9 +87,7 @@ Here is a sample board:
 The top row of the board is considered row zero and row numbers increase as they go down.
 ------------------------------------------------------------------------------------------------ */
 
-const battleship = (board, row, col) => {
-  //  Solution code here...
-};
+const battleship = (board, row, col) => board[row][col] === '#' ? 'hit' : 'miss';
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
