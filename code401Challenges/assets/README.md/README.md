@@ -13,3 +13,4 @@ the new value into the midpoint of the array, and the final conditional added th
 for the given index -1 so that it could match the same position for the new output array
 
 ## Solution
+Format: ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/ArrayShiftWhiteboard.jpg)
