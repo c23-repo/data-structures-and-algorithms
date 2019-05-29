@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447a7b67-4c27-4b52-bf54-50fc9c51fb4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/ArrayShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/ArrayShiftTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/README.md/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ArrayShiftWhiteboard.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -30,14 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/ArrayShiftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="293">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/README.md/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -59,6 +69,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/ArrayShift.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/ArrayShiftTest.java" />
+        <option value="$PROJECT_DIR$/assets/README.md/README.md" />
       </list>
     </option>
   </component>
@@ -81,6 +92,17 @@
             <path>
               <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
@@ -138,9 +160,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559151941981" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559153413517" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,12 +226,18 @@
     <history-entry file="ArrayShiftTest - 2019.05.29 at 10h 40m 31s.xml">
       <configuration name="ArrayShiftTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayShiftTest - 2019.05.29 at 10h 44m 38s.xml">
+      <configuration name="ArrayShiftTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayShiftTest - 2019.05.29 at 10h 45m 42s.xml">
+      <configuration name="ArrayShiftTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -214,7 +247,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,11 +277,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/ArrayShiftTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="293">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/ArrayShiftWhiteboard.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
