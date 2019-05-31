@@ -13,7 +13,7 @@ public class BinarySearch {
              else if (target > arr[middle]) low = middle + 1;
              else return middle;
          }
-         
+
          return -1;
 
  }
