@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="447a7b67-4c27-4b52-bf54-50fc9c51fb4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/README.md/BinarySearch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/README.md/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/README.md/ArrayShift.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401Challenges/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/BinarySearchTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="447a7b67-4c27-4b52-bf54-50fc9c51fb4c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -199,7 +193,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559272974151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559278842227" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
