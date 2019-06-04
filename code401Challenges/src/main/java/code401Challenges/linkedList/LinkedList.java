@@ -28,27 +28,75 @@ public class LinkedList {
     }
 
     public boolean includes(int value){
-        Node iterator = head;
-        while(iterator != null){
-            if (iterator.data == value) {
+        Node current = head;
+        while(current != null){
+            if (current.data == value) {
                 return true;
             }
-            iterator = iterator.next;
+            current = current.next;
         }
         return false;
     }
 
     public String print(){
-        Node iterator = head;
+        Node current = head;
         StringBuilder str = new StringBuilder();
         str.append("LinkedList: ");
-        while(iterator != null){
-            str.append(iterator.data);
+        while(current != null){
+            str.append(current.data);
             str.append("->");
-            iterator = iterator.next;
+            current = current.next;
         }
         str.append("null");
         return str.toString();
+    }
+
+    public Node append(int value){
+        Node newNode = new Node(value);
+        if (this.head == null){
+            this.head = newNode;
+            return newNode;
+        }
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
+        }
+        current.next = newNode;
+        return newNode;
+    }
+
+    public void insertBefore(int target, int value) {
+
+        if (!this.includes(target)) {
+            throw new IllegalArgumentException("Target not found");
+        }
+
+        Node current = this.head;
+        if (current.data == target) {
+            this.insert(value);
+        } else {
+            while (current.next.data != target) {
+                current = current.next;
+            }
+            Node newNode = new Node(value);
+            newNode.next = current.next;
+            current.next = newNode;
+        }
+    }
+
+    public void insertAfter(int target, int value){
+
+        if (!this.includes(target)) {
+            throw new IllegalArgumentException("Target not found");
+        }
+
+        Node current = this.head;
+        while (current.data != target) {
+            current = current.next;
+        }
+        Node newNode = new Node(value);
+        newNode.next = current.next;
+        current.next = newNode;
     }
 
 }
