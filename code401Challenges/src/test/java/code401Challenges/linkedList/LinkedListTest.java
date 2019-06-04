@@ -47,4 +47,88 @@ public class LinkedListTest {
         classTest.insert(23);
         assertEquals("LinkedList: 23->2->10->3->5->null", classTest.print());
     }
+
+    @Test
+    public void test_append_one_val() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(6);
+        assertEquals("LinkedList: 6->null", classTest.print());
+
+    }
+
+    @Test
+    public void test_append() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(6);
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.append(5);
+        assertEquals("LinkedList: 6->4->9->3->5->null", classTest.print());
+
+    }
+
+    @Test
+    public void test_append_with_insert() {
+        LinkedList classTest = new LinkedList();
+        classTest.insert(6);
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.insert(5);
+        assertEquals("LinkedList: 5->6->4->9->3->null", classTest.print());
+
+    }
+
+    @Test
+    public void test_insertBefore() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.insertBefore(3, 5);
+        assertEquals("LinkedList: 4->9->5->3->null", classTest.print());
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_InsertBeforeEmpty_Error() {
+        LinkedList testLL = new LinkedList();
+
+        testLL.insertBefore(86, 5);
+    }
+
+    @Test
+    public void test_dbl_insertBefore() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.insertBefore(3, 5);
+        classTest.insertBefore(5, 6);
+        assertEquals("LinkedList: 4->9->6->5->3->null", classTest.print());
+    }
+
+    @Test
+    public void test_insertAfter() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.insertAfter(3, 5);
+        assertEquals("LinkedList: 4->9->3->5->null", classTest.print());
+    }
+
+    @Test
+    public void test_dbl_insertAfter() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.insertAfter(3, 5);
+        classTest.insertAfter(4, 6);
+        assertEquals("LinkedList: 4->6->9->3->5->null", classTest.print());
+    }
+
+
+
 }
