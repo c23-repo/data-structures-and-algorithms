@@ -10,6 +10,6 @@ the end.
 - The big O is linear and the time space complexity is big O of N.
 
 ## Solution
-- Format: ![Insertion Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LinkedListWhiteBoard.jpg)
+- Insertion Whiteboard: ![Insertion Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LinkedListWhiteBoard.jpg)
 
-- Format: ![Kth From Tail Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LL_KthFromTheTailWhiteBoard.jpg)
+- Kth From End Whiteboard: ![Kth From End Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LL_KthFromTheTailWhiteBoard.jpg)
