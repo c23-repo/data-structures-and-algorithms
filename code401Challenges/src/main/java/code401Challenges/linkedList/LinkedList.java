@@ -99,4 +99,25 @@ public class LinkedList {
         current.next = newNode;
     }
 
+    public int nodeFinderFromEnd(int target){
+        int length = 0;
+        Node current = head;
+
+        if (target < 0)
+            throw new IllegalArgumentException("Target must be equal to or greater than 0");
+
+        while (current != null) {
+            current = current.next;
+            length++;
+        }
+        current = head;
+        if (length <= target) {
+            throw new IllegalArgumentException("Target is out of bounds");
+        }
+        for (int i = 1; i < length - target; i++){
+            current = current.next;
+        }
+        return current.data;
+    }
+
 }
