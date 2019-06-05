@@ -23,6 +23,7 @@ public class LinkedListTest {
         classTest.insert(10);
         classTest.insert(2);
         classTest.insert(23);
+
         assertTrue(classTest.includes(10));
     }
 
@@ -34,6 +35,7 @@ public class LinkedListTest {
         classTest.insert(10);
         classTest.insert(2);
         classTest.insert(23);
+
         assertFalse("This should return a false", classTest.includes(11));
     }
 
@@ -45,6 +47,7 @@ public class LinkedListTest {
         classTest.insert(10);
         classTest.insert(2);
         classTest.insert(23);
+
         assertEquals("LinkedList: 23->2->10->3->5->null", classTest.print());
     }
 
@@ -52,6 +55,7 @@ public class LinkedListTest {
     public void test_append_one_val() {
         LinkedList classTest = new LinkedList();
         classTest.append(6);
+
         assertEquals("LinkedList: 6->null", classTest.print());
 
     }
@@ -64,6 +68,7 @@ public class LinkedListTest {
         classTest.append(9);
         classTest.append(3);
         classTest.append(5);
+
         assertEquals("LinkedList: 6->4->9->3->5->null", classTest.print());
 
     }
@@ -76,6 +81,7 @@ public class LinkedListTest {
         classTest.append(9);
         classTest.append(3);
         classTest.insert(5);
+
         assertEquals("LinkedList: 5->6->4->9->3->null", classTest.print());
 
     }
@@ -87,6 +93,7 @@ public class LinkedListTest {
         classTest.append(9);
         classTest.append(3);
         classTest.insertBefore(3, 5);
+
         assertEquals("LinkedList: 4->9->5->3->null", classTest.print());
     }
 
@@ -105,6 +112,7 @@ public class LinkedListTest {
         classTest.append(3);
         classTest.insertBefore(3, 5);
         classTest.insertBefore(5, 6);
+
         assertEquals("LinkedList: 4->9->6->5->3->null", classTest.print());
     }
 
@@ -115,6 +123,7 @@ public class LinkedListTest {
         classTest.append(9);
         classTest.append(3);
         classTest.insertAfter(3, 5);
+
         assertEquals("LinkedList: 4->9->3->5->null", classTest.print());
     }
 
@@ -126,9 +135,65 @@ public class LinkedListTest {
         classTest.append(3);
         classTest.insertAfter(3, 5);
         classTest.insertAfter(4, 6);
+
         assertEquals("LinkedList: 4->6->9->3->5->null", classTest.print());
     }
 
 
+    @Test
+    public void test_nodeFinderFromEnd() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(6);
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.append(5);
 
+        assertEquals(9, classTest.nodeFinderFromEnd(2));
+        assertEquals(5, classTest.nodeFinderFromEnd(0));
+        assertEquals(6, classTest.nodeFinderFromEnd(4));
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void test_nodeFinderFromEnd_k_greaterThanLength() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(6);
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.append(5);
+
+        classTest.nodeFinderFromEnd(7);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_nodeFinderFromEnd_k_equalToLength() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(6);
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.append(5);
+
+        classTest.nodeFinderFromEnd(5);
+    }
+
+   @Test(expected = IllegalArgumentException.class)
+    public void test_nodeFinderFromEnd_k_isNegative() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(6);
+        classTest.append(4);
+        classTest.append(9);
+        classTest.append(3);
+        classTest.append(5);
+
+        classTest.nodeFinderFromEnd(-2);
+    }
+
+   @Test(expected = IllegalArgumentException.class)
+    public void test_nodeFinderFromEnd_sizeOfOne() {
+        LinkedList classTest = new LinkedList();
+        classTest.append(6);
+
+        classTest.nodeFinderFromEnd(2);
+    }
 }
