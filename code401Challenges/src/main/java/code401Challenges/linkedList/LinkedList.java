@@ -120,4 +120,29 @@ public class LinkedList {
         return current.data;
     }
 
+    public static LinkedList mergeLists(LinkedList one, LinkedList two){
+
+        Node current1 = one.head, current2 = two.head;
+        Node temp1 = null, temp2 = null;
+
+        if (current1 == null && current2 == null)
+            throw new IllegalArgumentException("Must pass a list that is greater than 0");
+        if (current1 == null) return two;
+        if (current2 == null) return one;
+
+        while(true){
+
+            temp1 = current1.next;
+            temp2 = current2.next;
+            current1.next = current2;
+            current1 = temp1;
+            if (current1 == null) break;
+            current2.next = temp1;
+            current2 = temp2;
+            if (current2 == null) break;
+        }
+        return one;
+
+    }
+
 }
