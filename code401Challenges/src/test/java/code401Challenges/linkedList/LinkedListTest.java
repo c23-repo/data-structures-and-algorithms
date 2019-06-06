@@ -11,7 +11,7 @@ public class LinkedListTest {
         LinkedList classTest = new LinkedList();
         classTest.insert(5);
 
-        assertTrue( classTest.head.data == 5);
+        assertTrue(classTest.head.data == 5);
 
     }
 
@@ -153,6 +153,7 @@ public class LinkedListTest {
         assertEquals(5, classTest.nodeFinderFromEnd(0));
         assertEquals(6, classTest.nodeFinderFromEnd(4));
     }
+
     @Test(expected = IllegalArgumentException.class)
     public void test_nodeFinderFromEnd_k_greaterThanLength() {
         LinkedList classTest = new LinkedList();
@@ -177,7 +178,7 @@ public class LinkedListTest {
         classTest.nodeFinderFromEnd(5);
     }
 
-   @Test(expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void test_nodeFinderFromEnd_k_isNegative() {
         LinkedList classTest = new LinkedList();
         classTest.append(6);
@@ -189,11 +190,92 @@ public class LinkedListTest {
         classTest.nodeFinderFromEnd(-2);
     }
 
-   @Test(expected = IllegalArgumentException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void test_nodeFinderFromEnd_sizeOfOne() {
         LinkedList classTest = new LinkedList();
         classTest.append(6);
 
         classTest.nodeFinderFromEnd(2);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_mergeLists_empty() {
+        LinkedList one = new LinkedList(), two = new LinkedList();
+
+        LinkedList.mergeLists(one, two);
+    }
+
+    @Test
+    public void test_mergeLists_secondEmpty() {
+        LinkedList one = new LinkedList(), two = new LinkedList();
+        one.append(5);
+        one.append(3);
+        one.append(2);
+
+        assertEquals("should return first list",
+                "LinkedList: 5->3->2->null",
+                LinkedList.mergeLists(one, two).print());
+
+    }
+
+    @Test
+    public void test_mergeLists_firstEmpty() {
+        LinkedList one = new LinkedList(), two = new LinkedList();
+        two.append(5);
+        two.append(3);
+        two.append(2);
+
+        assertEquals("should return second list",
+                "LinkedList: 5->3->2->null",
+                LinkedList.mergeLists(one, two).print());
+    }
+
+    @Test
+    public void test_mergelist_even() {
+        LinkedList one = new LinkedList(), two = new LinkedList();
+        one.append(5);
+        two.append(6);
+        one.append(3);
+        two.append(8);
+        one.append(2);
+        two.append(1);
+
+        assertEquals("should return first list",
+                "LinkedList: 5->6->3->8->2->1->null",
+                LinkedList.mergeLists(one, two).print());
+    }
+
+    @Test
+    public void test_mergelist_unevenOneLonger() {
+        LinkedList one = new LinkedList(), two = new LinkedList();
+        one.append(5);
+        two.append(6);
+        one.append(3);
+        two.append(8);
+        one.append(2);
+        two.append(1);
+        one.append(9);
+        one.append(4);
+
+        assertEquals("should return first list",
+                "LinkedList: 5->6->3->8->2->1->9->4->null",
+                LinkedList.mergeLists(one, two).print());
+    }
+
+    @Test
+    public void test_mergelist_unevenTwoLonger() {
+        LinkedList one = new LinkedList(), two = new LinkedList();
+        one.append(5);
+        two.append(6);
+        one.append(3);
+        two.append(8);
+        one.append(2);
+        two.append(1);
+        two.append(9);
+        two.append(4);
+
+        assertEquals("should return first list",
+                "LinkedList: 5->6->3->8->2->1->9->4->null",
+                LinkedList.mergeLists(one, two).print());
     }
 }
