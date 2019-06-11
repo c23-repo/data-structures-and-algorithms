@@ -8,7 +8,7 @@ public class Stack {
     int n; //size of the stack
 
 
-    Stack(){
+    public Stack(){
         top = null;
         n = 0;
     }
