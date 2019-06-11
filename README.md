@@ -7,3 +7,5 @@ This repository has code challenges from my 301 JavaScript course and 401 Java c
 [BinarySearch Challenge](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/BinarySearch.md)
 
 [LinkedList Challenge](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/LLInsertions.md)
+
+[Queue with Stacks Challenge](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/QueueWithStacks.md)
