@@ -2,9 +2,9 @@ package code401Challenges.stacksandqueues;
 
 import java.util.NoSuchElementException;
 
-public class Stack {
+public class Stack<T> {
 
-    Node top;
+    Node<T> top;
     int n; //size of the stack
 
 
@@ -22,25 +22,25 @@ public class Stack {
         return n;
     }
 
-    public void push(int value){
-        Node oldTop = top;
+    public void push(T value){
+        Node<T> oldTop = top;
         top = new Node(value);
         top.next = oldTop;
         n++;
     }
 
-    public int pop(){
+    public T pop(){
         if (isEmpty()){
             throw new NoSuchElementException("Stack is empty");
         }
 
-        int answer = top.data;
+        T answer = top.data;
         top = top.next;
         n--;
         return answer;
     }
 
-    public int peek(){
+    public T peek(){
         if (isEmpty()){
             throw new NoSuchElementException("Stack is empty");
         }

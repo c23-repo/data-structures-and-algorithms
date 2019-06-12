@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447a7b67-4c27-4b52-bf54-50fc9c51fb4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/README.md/QueueWithStacks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/QueueWithStacks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/README.md/AnimalShelter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/AnimalShelter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/README.md/ArrayShift.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/README.md/ArrayShift.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -26,34 +32,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="396">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelter.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/README.md/QueueWithStacks">
+        <entry file="file://$PROJECT_DIR$/assets/README.md/AnimalShelter.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="209">
-                <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+                <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,13 +61,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -77,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,7 +100,6 @@
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/BinarySearch.java" />
         <option value="$PROJECT_DIR$/assets/README.md/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/BinarySearchTest.java" />
-        <option value="$PROJECT_DIR$/assets/README.md/ArrayShift.md" />
         <option value="$PROJECT_DIR$/assets/README.md/BinarySearch.md" />
         <option value="$PROJECT_DIR$/src/main/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/ListNode.java" />
@@ -102,22 +107,29 @@
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/linkedList/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/assets/README.md/LLInsertions.md" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java" />
         <option value="$PROJECT_DIR$/assets/README.md/StacksAndQueues.md" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java" />
         <option value="$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java" />
         <option value="$PROJECT_DIR$/assets/README.md/QueueWithStacks" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java" />
+        <option value="$PROJECT_DIR$/assets/README.md/ArrayShift.md" />
+        <option value="$PROJECT_DIR$/assets/README.md/AnimalShelter.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -186,6 +198,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="fifoAnimalShelter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
               <item name="linkedList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,6 +222,14 @@
               <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="queueWithStacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -236,6 +265,14 @@
               <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
               <item name="stacksandqueues" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="queueWithStacks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -244,7 +281,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560277808548" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560364108661" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -255,22 +292,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401Challenges.fifoAnimalShelter" />
       <recent name="queueWithStacks" />
       <recent name="code401Challenges.stacksandqueues" />
       <recent name="code401Challenges.linkedList" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList" />
-      <recent name="$PROJECT_DIR$/assets/README.md" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="code401Challenges" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList" />
+      <recent name="$PROJECT_DIR$/assets/README.md" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,82 +323,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PseudoQueueTest.dequeueIsEmpty">
-    <configuration name="PseudoQueueTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AnimalShelterTest.dequeueNull">
+    <configuration name="AnimalShelterTest.dequeueCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queueWithStacks.*" />
+          <option name="PATTERN" value="code401Challenges.fifoAnimalShelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queueWithStacks" />
-      <option name="MAIN_CLASS_NAME" value="queueWithStacks.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="dequeue" />
+      <option name="PACKAGE_NAME" value="code401Challenges.fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="dequeueCat" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.dequeueIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalShelterTest.dequeueDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queueWithStacks.*" />
+          <option name="PATTERN" value="code401Challenges.fifoAnimalShelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queueWithStacks" />
-      <option name="MAIN_CLASS_NAME" value="queueWithStacks.PseudoQueueTest" />
-      <option name="METHOD_NAME" value="dequeueIsEmpty" />
+      <option name="PACKAGE_NAME" value="code401Challenges.fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="dequeueDog" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PseudoQueueTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalShelterTest.dequeueMixed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queueWithStacks.*" />
+          <option name="PATTERN" value="code401Challenges.fifoAnimalShelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="queueWithStacks" />
-      <option name="MAIN_CLASS_NAME" value="queueWithStacks.PseudoQueueTest" />
+      <option name="PACKAGE_NAME" value="code401Challenges.fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="dequeueMixed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.dequeueNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401Challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401Challenges.fifoAnimalShelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401Challenges.fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="dequeueNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401Challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401Challenges.fifoAnimalShelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401Challenges.fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.fifoAnimalShelter.AnimalShelterTest" />
       <option name="METHOD_NAME" value="enqueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401Challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401Challenges.stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.stacksandqueues.QueueTest" />
-      <option name="METHOD_NAME" value="peek" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.peekEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401Challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401Challenges.stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.stacksandqueues.QueueTest" />
-      <option name="METHOD_NAME" value="peekEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,11 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PseudoQueueTest.dequeueIsEmpty" />
-        <item itemvalue="JUnit.PseudoQueueTest.dequeue" />
-        <item itemvalue="JUnit.PseudoQueueTest.enqueue" />
-        <item itemvalue="JUnit.QueueTest.peekEmpty" />
-        <item itemvalue="JUnit.QueueTest.peek" />
+        <item itemvalue="JUnit.AnimalShelterTest.dequeueNull" />
+        <item itemvalue="JUnit.AnimalShelterTest.dequeueMixed" />
+        <item itemvalue="JUnit.AnimalShelterTest.dequeueDog" />
+        <item itemvalue="JUnit.AnimalShelterTest.dequeueCat" />
+        <item itemvalue="JUnit.AnimalShelterTest.enqueue" />
       </list>
     </recent_temporary>
   </component>
@@ -390,42 +428,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 30m 44s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueDog - 2019.06.12 at 11h 00m 31s.xml">
+      <configuration name="AnimalShelterTest.dequeueDog" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 32m 19s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueCat - 2019.06.12 at 11h 01m 59s.xml">
+      <configuration name="AnimalShelterTest.dequeueCat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 32m 50s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueDog - 2019.06.12 at 11h 03m 23s.xml">
+      <configuration name="AnimalShelterTest.dequeueDog" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 42m 40s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueCat - 2019.06.12 at 11h 03m 32s.xml">
+      <configuration name="AnimalShelterTest.dequeueCat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 42m 42s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueCat - 2019.06.12 at 11h 04m 08s.xml">
+      <configuration name="AnimalShelterTest.dequeueCat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 43m 22s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueCat - 2019.06.12 at 11h 04m 48s.xml">
+      <configuration name="AnimalShelterTest.dequeueCat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 43m 50s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueCat - 2019.06.12 at 11h 05m 17s.xml">
+      <configuration name="AnimalShelterTest.dequeueCat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeue - 2019.06.11 at 10h 44m 29s.xml">
-      <configuration name="PseudoQueueTest.dequeue" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueDog - 2019.06.12 at 11h 05m 26s.xml">
+      <configuration name="AnimalShelterTest.dequeueDog" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeueIsEmpty - 2019.06.11 at 10h 49m 41s.xml">
-      <configuration name="PseudoQueueTest.dequeueIsEmpty" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueMixed - 2019.06.12 at 11h 20m 51s.xml">
+      <configuration name="AnimalShelterTest.dequeueMixed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PseudoQueueTest_dequeueIsEmpty - 2019.06.11 at 10h 53m 50s.xml">
-      <configuration name="PseudoQueueTest.dequeueIsEmpty" configurationId="JUnit" />
+    <history-entry file="AnimalShelterTest_dequeueNull - 2019.06.12 at 11h 22m 29s.xml">
+      <configuration name="AnimalShelterTest.dequeueNull" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17525035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,15 +472,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67596567" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67525035" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32403433" side_tool="true" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32474965" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32965517" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49356222" weight="0.32891566" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
@@ -458,11 +496,68 @@
       <window_info anchor="right" id="Key Promoter X" order="9" weight="0.3297568" />
       <window_info anchor="right" id="CodeStream" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67525035" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32474965" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49356222" weight="0.32891566" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" weight="0.3297568" />
+      <window_info anchor="right" id="CodeStream" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/img/ArrayShiftWhiteboard.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -527,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/README.md/ArrayShift.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/ArrayShiftTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -590,41 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/linkedList/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1572">
-          <caret line="265" column="40" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2085">
@@ -632,47 +685,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/queueWithStacks/PseudoQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/queueWithStacks/PseudoQueue.java" />
     <entry file="file://$PROJECT_DIR$/assets/README.md/StacksAndQueues.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="152">
             <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/QueueWithStacks" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/queueWithStacks/PseudoQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12255">
+          <caret line="716" column="12" selection-start-line="716" selection-start-column="12" selection-end-line="716" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/linkedList/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4087">
+          <caret line="265" column="40" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1577">
+          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/ArrayShiftWhiteboard.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelterWhiteboard.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/ArrayShift.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
@@ -688,18 +831,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelter.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/README.md/QueueWithStacks">
+    <entry file="file://$PROJECT_DIR$/assets/README.md/AnimalShelter.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="209">
-            <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
