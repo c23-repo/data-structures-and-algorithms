@@ -5,20 +5,20 @@ import code401Challenges.stacksandqueues.Stack;
 
 import java.util.EmptyStackException;
 
-public class PseudoQueue {
-    Stack stackEnq;
-    Stack stackDeq;
+public class PseudoQueue<T> {
+    Stack<T> stackEnq;
+    Stack<T> stackDeq;
 
     public PseudoQueue(){
         this.stackEnq = new Stack();
         this.stackDeq = new Stack();
     }
 
-    public void enqueue(int value){
+    public void enqueue(T value){
         stackEnq.push(value);
     }
 
-    public int dequeue(){
+    public T dequeue(){
         if (stackDeq.isEmpty()) {
             if (stackEnq.isEmpty()) throw new EmptyStackException();
 
@@ -27,7 +27,7 @@ public class PseudoQueue {
             }
         }
 
-        int tempDeq = stackDeq.pop();
+        T tempDeq = stackDeq.pop();
         return tempDeq;
     }
 }

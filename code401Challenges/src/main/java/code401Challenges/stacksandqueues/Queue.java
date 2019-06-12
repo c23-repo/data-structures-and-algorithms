@@ -2,14 +2,14 @@ package code401Challenges.stacksandqueues;
 
 import java.util.NoSuchElementException;
 
-public class Queue {
+public class Queue<T> {
 
-    Node front;
-    Node back;
+    Node<T> front;
+    Node<T> back;
     int n; //size of queue
 
 
-    Queue(){
+    public Queue(){
         this.front = null;
         this.back = null;
         n = 0;
@@ -19,14 +19,14 @@ public class Queue {
         return front == null ? true : false;
     }
 
-    public int getFront() { return front.data; }
+    public T getFront() { return front.data; }
 
-    public int getBack() { return back.data; }
+    public T getBack() { return back.data; }
 
     public int getN() { return n; }
 
-    public void enqueue(int value){
-        Node newNode = new Node(value);
+    public void enqueue(T value){
+        Node<T> newNode = new Node(value);
         if (isEmpty()) {
             front = newNode;
             back = newNode;
@@ -38,17 +38,17 @@ public class Queue {
         n++;
     }
 
-    public int dequeue(){
+    public T dequeue(){
         if (isEmpty()){
             throw new NoSuchElementException("node in queue does not exist");
         }
-        Node temp = front;
+        Node<T> temp = front;
         front = front.next;
         n--;
         return temp.data;
     }
 
-    public int peek(){
+    public T peek(){
         if (isEmpty()){
             throw new NoSuchElementException("node in queue does not exist");
         }
