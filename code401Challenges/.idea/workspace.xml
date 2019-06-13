@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447a7b67-4c27-4b52-bf54-50fc9c51fb4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/README.md/AnimalShelter.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/AnimalShelter.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/README.md/MultiBracketValidation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/MultiBracketValidation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/multibracketvalidation/MultiBracketValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/README.md/ArrayShift.md" beforeDir="false" afterPath="$PROJECT_DIR$/assets/README.md/ArrayShift.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -30,61 +25,82 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelter.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/README.md/AnimalShelter.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="703">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="290">
+                  <caret line="55" column="7" selection-start-line="52" selection-start-column="10" selection-end-line="55" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/multibracketvalidation/MultiBracketValidationTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="931">
+                  <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="76">
+                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/README.md/MultiBracketValidation.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="328">
+                    <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -123,13 +139,16 @@
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java" />
         <option value="$PROJECT_DIR$/assets/README.md/ArrayShift.md" />
         <option value="$PROJECT_DIR$/assets/README.md/AnimalShelter.md" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/multibracketvalidation/MultiBracketValidationTest.java" />
+        <option value="$PROJECT_DIR$/assets/README.md/MultiBracketValidation.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -139,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
@@ -278,10 +296,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560364108661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560442190271" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -292,23 +311,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="code401Challenges.multibracketvalidation" />
       <recent name="code401Challenges.fifoAnimalShelter" />
       <recent name="queueWithStacks" />
       <recent name="code401Challenges.stacksandqueues" />
       <recent name="code401Challenges.linkedList" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList" />
+      <recent name="$PROJECT_DIR$/assets/README.md" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="code401Challenges" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList" />
-      <recent name="$PROJECT_DIR$/assets/README.md" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,23 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalShelterTest.dequeueNull">
-    <configuration name="AnimalShelterTest.dequeueCat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401Challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401Challenges.fifoAnimalShelter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.fifoAnimalShelter" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.fifoAnimalShelter.AnimalShelterTest" />
-      <option name="METHOD_NAME" value="dequeueCat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MultiBracketValidationTest">
     <configuration name="AnimalShelterTest.dequeueDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
@@ -388,17 +392,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalShelterTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiBracketValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401Challenges.fifoAnimalShelter.*" />
+          <option name="PATTERN" value="code401Challenges.multibracketvalidation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.fifoAnimalShelter" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.fifoAnimalShelter.AnimalShelterTest" />
-      <option name="METHOD_NAME" value="enqueue" />
+      <option name="PACKAGE_NAME" value="code401Challenges.multibracketvalidation" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.multibracketvalidation.MultiBracketValidationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiBracketValidationTest.multiBracketValidation_onePair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401Challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401Challenges.multibracketvalidation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401Challenges.multibracketvalidation" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.multibracketvalidation.MultiBracketValidationTest" />
+      <option name="METHOD_NAME" value="multiBracketValidation_onePair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -406,11 +425,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiBracketValidationTest" />
+        <item itemvalue="JUnit.MultiBracketValidationTest.multiBracketValidation_onePair" />
         <item itemvalue="JUnit.AnimalShelterTest.dequeueNull" />
         <item itemvalue="JUnit.AnimalShelterTest.dequeueMixed" />
         <item itemvalue="JUnit.AnimalShelterTest.dequeueDog" />
-        <item itemvalue="JUnit.AnimalShelterTest.dequeueCat" />
-        <item itemvalue="JUnit.AnimalShelterTest.enqueue" />
       </list>
     </recent_temporary>
   </component>
@@ -428,12 +447,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnimalShelterTest_dequeueDog - 2019.06.12 at 11h 00m 31s.xml">
-      <configuration name="AnimalShelterTest.dequeueDog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalShelterTest_dequeueCat - 2019.06.12 at 11h 01m 59s.xml">
-      <configuration name="AnimalShelterTest.dequeueCat" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnimalShelterTest_dequeueDog - 2019.06.12 at 11h 03m 23s.xml">
       <configuration name="AnimalShelterTest.dequeueDog" configurationId="JUnit" />
     </history-entry>
@@ -457,6 +470,12 @@
     </history-entry>
     <history-entry file="AnimalShelterTest_dequeueNull - 2019.06.12 at 11h 22m 29s.xml">
       <configuration name="AnimalShelterTest.dequeueNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiBracketValidationTest_multiBracketValidation_onePair - 2019.06.13 at 08h 35m 54s.xml">
+      <configuration name="MultiBracketValidationTest.multiBracketValidation_onePair" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiBracketValidationTest - 2019.06.13 at 08h 58m 24s.xml">
+      <configuration name="MultiBracketValidationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -552,6 +571,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -721,20 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/linkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4087">
@@ -752,30 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1577">
@@ -786,23 +781,11 @@
     <entry file="file://$PROJECT_DIR$/assets/img/ArrayShiftWhiteboard.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelterWhiteboard.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelterWhiteboard.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-159">
           <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,11 +804,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/README.md/LLInsertions.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/AnimalShelter.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret lean-forward="true" selection-end-line="18" />
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -834,11 +831,69 @@
     <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelter.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/README.md/AnimalShelter.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/queueWithStacks/PseudoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/LLInsertions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
-            <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <first_editor relative-caret-position="323">
+            <caret line="17" selection-start-line="17" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/multibracketvalidation/MultiBracketValidationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="55" column="7" selection-start-line="52" selection-start-column="10" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/MultiBracketValidation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="328">
+            <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
