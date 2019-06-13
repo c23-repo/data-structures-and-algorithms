@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 
 public class Stack<T> {
 
-    Node<T> top;
+    public Node<T> top;
     int n; //size of the stack
 
 
