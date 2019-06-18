@@ -24,7 +24,19 @@ public class BinaryNode<T> {
         this.left = left;
     }
 
-    public void setRight(BinaryNode<T> right) {
+    public  void setRight(BinaryNode<T> right) {
         this.right = right;
+    }
+
+    public T getKey() {
+        return key;
+    }
+
+    public BinaryNode<T> getLeft() {
+        return left;
+    }
+
+    public BinaryNode<T> getRight() {
+        return right;
     }
 }
