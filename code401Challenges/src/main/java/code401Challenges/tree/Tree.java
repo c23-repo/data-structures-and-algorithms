@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Tree<T> {
     BinaryNode root;
 
-    Tree(){
+    public Tree(){
 
         root = null;
     }
