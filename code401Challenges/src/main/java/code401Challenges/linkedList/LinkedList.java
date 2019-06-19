@@ -1,8 +1,10 @@
 package code401Challenges.linkedList;
 
 
+import code401Challenges.stacksandqueues.Node;
+import code401Challenges.stacksandqueues.Queue;
 
-public class LinkedList {
+public class LinkedList extends Queue<Node> {
 
     Node head;
 
@@ -17,7 +19,7 @@ public class LinkedList {
 
     }
 
-    LinkedList(){
+    public LinkedList(){
         this.head = null;
     }
 
