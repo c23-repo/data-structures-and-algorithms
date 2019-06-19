@@ -14,3 +14,6 @@ This repository has code challenges from my 301 JavaScript course and 401 Java c
 
 [Multi-Bracket Validation](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/MultiBracketValidation.md)
 
+[FizzBuzz Tree](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/FizzBuzzTree.md)
+
+[Breadth First Traversal](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/BinaryTree.md)
