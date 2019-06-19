@@ -65,7 +65,6 @@ public class FizzBuzzTreeTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void fizzBuzzEmpty() {
-
         Tree<Integer> tree = new Tree<>();
         FizzBuzzTree treeTest = new FizzBuzzTree();
         treeTest.fizzBuzzTree(tree);

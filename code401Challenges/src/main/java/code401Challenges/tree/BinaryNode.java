@@ -14,8 +14,6 @@ public class BinaryNode<T> {
         }
 
     // Setters
-
-
     public void setKey(T key) {
         this.key = key;
     }
