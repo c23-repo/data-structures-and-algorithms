@@ -42,13 +42,30 @@ public class BinarySearchTreeTest {
     }
     
 
-    /*
     @Test
     public void add() {
+        BinarySearchTree bst = new BinarySearchTree();
+        bst.add(5);
+        bst.add(3);
+        bst.add(4);
+        assertEquals(4, bst.root.left.right.key);
     }
 
     @Test
     public void contains() {
+        BinarySearchTree bst = new BinarySearchTree();
+        bst.add(5);
+        bst.add(3);
+        bst.add(4);
+        assertTrue(bst.contains(4));
     }
-    */
+
+    @Test
+    public void contains_fail() {
+        BinarySearchTree bst = new BinarySearchTree();
+        bst.add(5);
+        bst.add(3);
+        bst.add(4);
+        assertFalse(bst.contains(8));
+    }
 }
