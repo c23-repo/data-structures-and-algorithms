@@ -47,4 +47,6 @@ public class TreeTest {
         assertEquals(new ArrayList<>(Arrays.asList(1, 2, 4, 5, 3, 6, 7)), this.tree.preOrder());
     }
 
+    @Test
+    public void breadthFirst() { assertEquals(("1\n2\n3\n4\n5\n6\n7\n"), this.tree.breadthFirst(tree));}
 }

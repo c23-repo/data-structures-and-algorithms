@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447a7b67-4c27-4b52-bf54-50fc9c51fb4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/README.md/FizzBuzzTree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/FizzBuzzTree.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/README.md/BinaryTree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/BreadthFirst.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401Challenges/FizzBuzzTree/FizzBuzzTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/FizzBuzzTree/FizzBuzzTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/code401Challenges/tree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/tree/BinarySearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,32 +24,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/README.md/FizzBuzzTree.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/README.md/ArrayShift.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="16" lean-forward="true" selection-end-line="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,7 +51,6 @@
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/linkedList/LinkedListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/assets/README.md/LLInsertions.md" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/stacksandqueues/StackTest.java" />
         <option value="$PROJECT_DIR$/assets/README.md/StacksAndQueues.md" />
@@ -88,7 +61,6 @@
         <option value="$PROJECT_DIR$/assets/README.md/QueueWithStacks" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Dog.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelterTest.java" />
@@ -98,14 +70,17 @@
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/multibracketvalidation/MultiBracketValidationTest.java" />
         <option value="$PROJECT_DIR$/assets/README.md/MultiBracketValidation.md" />
-        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/FizzBuzzTree/FizzBuzzTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/FizzBuzzTree/FizzBuzzTreeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/code401Challenges/tree/BinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/assets/README.md/FizzBuzzTree.md" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/assets/README.md/BinaryTree.md" />
       </list>
     </option>
   </component>
@@ -172,6 +147,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code401Challenges" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code401Challenges" type="462c0819:PsiDirectoryNode" />
+              <item name="stacksandqueues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code401Challenges" type="b2602c69:ProjectViewProjectNode" />
@@ -247,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560910765436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560968037309" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -258,8 +242,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="code401Challenges.FizzBuzzTree" />
       <recent name="code401Challenges.tree" />
+      <recent name="code401Challenges.FizzBuzzTree" />
       <recent name="code401Challenges.multibracketvalidation" />
       <recent name="code401Challenges.fifoAnimalShelter" />
       <recent name="queueWithStacks" />
@@ -290,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.contains_fail">
+  <component name="RunManager" selected="JUnit.TreeTest.breadthFirst">
     <configuration name="BinarySearchTreeTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
@@ -355,17 +339,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTreeTest.fizzBuzzTreeNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.breadthFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code401Challenges.FizzBuzzTree.*" />
+          <option name="PATTERN" value="code401Challenges.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.FizzBuzzTree" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.FizzBuzzTree.FizzBuzzTreeTest" />
-      <option name="METHOD_NAME" value="fizzBuzzTreeNegative" />
+      <option name="PACKAGE_NAME" value="code401Challenges.tree" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.tree.TreeTest" />
+      <option name="METHOD_NAME" value="breadthFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -373,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.breadthFirst" />
         <item itemvalue="JUnit.BinarySearchTreeTest.contains_fail" />
         <item itemvalue="JUnit.BinarySearchTreeTest.contains" />
         <item itemvalue="JUnit.BinarySearchTreeTest.add" />
         <item itemvalue="JUnit.FizzBuzzTreeTest.fizzBuzzEmpty" />
-        <item itemvalue="JUnit.FizzBuzzTreeTest.fizzBuzzTreeNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -395,21 +379,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest_testContainsOne - 2019.06.18 at 09h 49m 04s.xml">
-      <configuration name="BinarySearchTreeTest.testContainsOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTreeTest_fizzBuzzTree - 2019.06.18 at 11h 24m 55s.xml">
-      <configuration name="FizzBuzzTreeTest.fizzBuzzTree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTreeTest_fizzBuzzTree - 2019.06.18 at 11h 26m 58s.xml">
-      <configuration name="FizzBuzzTreeTest.fizzBuzzTree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTreeTest_fizzBuzzTreeNegative - 2019.06.18 at 11h 29m 47s.xml">
-      <configuration name="FizzBuzzTreeTest.fizzBuzzTreeNegative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTreeTest_fizzBuzzEmpty - 2019.06.18 at 11h 33m 27s.xml">
-      <configuration name="FizzBuzzTreeTest.fizzBuzzEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTreeTest_add - 2019.06.18 at 17h 57m 52s.xml">
       <configuration name="BinarySearchTreeTest.add" configurationId="JUnit" />
     </history-entry>
@@ -425,10 +394,24 @@
     <history-entry file="BinarySearchTreeTest_contains_fail - 2019.06.18 at 18h 02m 42s.xml">
       <configuration name="BinarySearchTreeTest.contains_fail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeTest_breadthFirst - 2019.06.19 at 10h 35m 43s.xml">
+      <configuration name="TreeTest.breadthFirst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_breadthFirst - 2019.06.19 at 10h 39m 07s.xml">
+      <configuration name="TreeTest.breadthFirst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_breadthFirst - 2019.06.19 at 10h 40m 02s.xml">
+      <configuration name="TreeTest.breadthFirst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_breadthFirst - 2019.06.19 at 10h 42m 47s.xml">
+      <configuration name="TreeTest.breadthFirst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_breadthFirst - 2019.06.19 at 10h 43m 11s.xml">
+      <configuration name="TreeTest.breadthFirst" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,7 +423,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67525035" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67525035" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,13 +522,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -613,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/README.md/BinarySearch.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="112" selection-start-line="13" selection-start-column="112" selection-end-line="13" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -649,13 +618,6 @@
             <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="137" column="29" selection-start-line="137" selection-start-column="29" selection-end-line="138" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -705,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/fifoAnimalShelter/AnimalShelterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1577">
@@ -723,13 +678,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/AnimalShelterWhiteboard.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/fifoAnimalShelter/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -825,17 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
-          <folding>
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/BinarySearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -888,29 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/README.md/ArrayShift.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -933,6 +847,86 @@
             <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/BinarySearch.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="112" selection-start-line="13" selection-start-column="112" selection-end-line="13" selection-end-column="112" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" lean-forward="true" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/README.md/BinaryTree.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="50" selection-start-line="50" selection-end-line="51" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-440">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2554#2555#0" expanded="true" />
+            <element signature="e#2660#2661#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,12 +1,12 @@
 package code401Challenges.tree;
-
-import org.checkerframework.checker.units.qual.A;
+import code401Challenges.stacksandqueues.Node;
+import code401Challenges.stacksandqueues.Queue;
 
 import java.util.ArrayList;
 
 
 public class Tree<T> {
-    BinaryNode root;
+    BinaryNode<T> root;
 
     public Tree(){
 
@@ -88,14 +88,34 @@ public class Tree<T> {
         }
     }
 
+    public String breadthFirst(Tree tree) {
+        Queue<BinaryNode> breadthQueue = new Queue<>();
+        BinaryNode node;
+        String treeValues = "";
+
+        if (tree.root == null) {
+            throw new IllegalArgumentException("The tree is empty");
+        } else {
+            breadthQueue.enqueue(tree.root);
+            while (!breadthQueue.isEmpty()) {
+                node = breadthQueue.dequeue();
+                treeValues += node.key + "\n";
+
+                if (node.left != null) breadthQueue.enqueue(node.left);
+                if (node.right != null) breadthQueue.enqueue(node.right);
+            }
+        }
+        return treeValues;
+    }
+
+
+
     // getters
-
-
-    public BinaryNode getRoot() {
+    public BinaryNode<T> getRoot() {
         return root;
     }
 
-    public void setRoot(BinaryNode root) {
+    public void setRoot(BinaryNode<T> root) {
         this.root = root;
     }
 }
