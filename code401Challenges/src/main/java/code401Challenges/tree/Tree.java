@@ -115,6 +115,7 @@ public class Tree<T> {
 
     private int findMaxValueHelper(BinaryNode node){
         int max = (int) node.key;
+        // Does recursion and checks for null edge cases
         if (node.left != null) max = Math.max(max,findMaxValueHelper(node.left));
         if (node.right != null) max = Math.max(max,findMaxValueHelper(node.right));
         return max;
