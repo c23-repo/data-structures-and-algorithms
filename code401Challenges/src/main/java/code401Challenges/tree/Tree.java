@@ -108,6 +108,18 @@ public class Tree<T> {
         return treeValues;
     }
 
+    public int findMaxValue(Tree tree){
+        if (tree.root == null) throw new IllegalArgumentException("The tree is empty");
+        return findMaxValueHelper(tree.root);
+    }
+
+    private int findMaxValueHelper(BinaryNode node){
+        int max = (int) node.key;
+        if (node.left != null) max = Math.max(max,findMaxValueHelper(node.left));
+        if (node.right != null) max = Math.max(max,findMaxValueHelper(node.right));
+        return max;
+    }
+
 
 
     // getters

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447a7b67-4c27-4b52-bf54-50fc9c51fb4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/README.md/BinaryTree.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/BreadthFirst.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" afterDir="false" />
     </list>
@@ -24,7 +21,35 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2090">
+              <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3042#3043#0" expanded="true" />
+                <element signature="e#3121#3122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,9 +103,9 @@
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/BinaryNode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" />
         <option value="$PROJECT_DIR$/assets/README.md/BinaryTree.md" />
+        <option value="$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java" />
       </list>
     </option>
   </component>
@@ -231,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560968037309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560994405638" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -274,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.breadthFirst">
+  <component name="RunManager" selected="JUnit.TreeTest.findMaxValue">
     <configuration name="BinarySearchTreeTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
@@ -323,22 +348,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTreeTest.fizzBuzzEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code401Challenges.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code401Challenges.FizzBuzzTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code401Challenges.FizzBuzzTree" />
-      <option name="MAIN_CLASS_NAME" value="code401Challenges.FizzBuzzTree.FizzBuzzTreeTest" />
-      <option name="METHOD_NAME" value="fizzBuzzEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeTest.breadthFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code401Challenges.test" />
       <extension name="coverage">
@@ -355,13 +364,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest.findMaxValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code401Challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code401Challenges.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code401Challenges.tree" />
+      <option name="MAIN_CLASS_NAME" value="code401Challenges.tree.TreeTest" />
+      <option name="METHOD_NAME" value="findMaxValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.findMaxValue" />
         <item itemvalue="JUnit.TreeTest.breadthFirst" />
         <item itemvalue="JUnit.BinarySearchTreeTest.contains_fail" />
         <item itemvalue="JUnit.BinarySearchTreeTest.contains" />
         <item itemvalue="JUnit.BinarySearchTreeTest.add" />
-        <item itemvalue="JUnit.FizzBuzzTreeTest.fizzBuzzEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -379,12 +404,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest_add - 2019.06.18 at 17h 57m 52s.xml">
-      <configuration name="BinarySearchTreeTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_add - 2019.06.18 at 18h 01m 47s.xml">
-      <configuration name="BinarySearchTreeTest.add" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTreeTest_add - 2019.06.18 at 18h 01m 59s.xml">
       <configuration name="BinarySearchTreeTest.add" configurationId="JUnit" />
     </history-entry>
@@ -409,11 +428,18 @@
     <history-entry file="TreeTest_breadthFirst - 2019.06.19 at 10h 43m 11s.xml">
       <configuration name="TreeTest.breadthFirst" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeTest_breadthFirst - 2019.06.19 at 18h 07m 12s.xml">
+      <configuration name="TreeTest.breadthFirst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_findMaxValue - 2019.06.19 at 18h 10m 00s.xml">
+      <configuration name="TreeTest.findMaxValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="815" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,7 +449,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.67525035" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.67525035" visible="true" weight="0.32780084" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,7 +458,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.32474965" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32965517" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49356222" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49356222" weight="0.32780084" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -814,17 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/BinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/README.md/ArrayShift.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -899,17 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="50" selection-start-line="50" selection-end-line="51" />
-          <folding>
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/stacksandqueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-440">
@@ -917,15 +921,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/code401Challenges/tree/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code401Challenges/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="2090">
+          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2527#2528#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
+            <element signature="e#3042#3043#0" expanded="true" />
+            <element signature="e#3121#3122#0" expanded="true" />
           </folding>
         </state>
       </provider>
