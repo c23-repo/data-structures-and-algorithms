@@ -49,4 +49,8 @@ public class TreeTest {
 
     @Test
     public void breadthFirst() { assertEquals(("1\n2\n3\n4\n5\n6\n7\n"), this.tree.breadthFirst(tree));}
+
+    @Test
+    public void findMaxValue() { assertEquals(7, this.tree.findMaxValue(tree));
+    }
 }
