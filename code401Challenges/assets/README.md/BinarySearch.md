@@ -13,5 +13,8 @@ conditional is set to check if the midpoint is greater than target, if it is the
 value of the midpoint. There is a conditional for the opposite as well. The loop keeps going until the midpoint is equal
 to the target value and returns the index of the value; if the value is not found, then the method returns a -1.
 
-## Solution
+## Whiteboard Solution
 Format: ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/BinarySearchWhiteBoard.jpg)
+
+## Code Solution
+[BinaryShift Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/BinarySearch.java)
