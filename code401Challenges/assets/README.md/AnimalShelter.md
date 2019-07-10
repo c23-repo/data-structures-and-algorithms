@@ -8,5 +8,8 @@ generics to be able to input the information. Then I created an enqueue method t
 appropriate queue. The next method was a dequeue method that returns the animal preference and the animal that has been 
 there the longest. If null it dose not return anything.
 
-## Solution
+## Whiteboard Solution
 Animal Shelter: ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/AnimalShelter.jpg)
+
+## Code Solution
+[Animal Shelter Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/fifoAnimalShelter/AnimalShelter.java)
