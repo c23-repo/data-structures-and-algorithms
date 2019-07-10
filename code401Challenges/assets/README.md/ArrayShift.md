@@ -12,5 +12,9 @@ The first conditional went up to the midpoint and got the values from the input 
 the new value into the midpoint of the array, and the final conditional added the remaining values of the input array
 for the given index -1 so that it could match the same position for the new output array
 
-## Solution
+## Whiteboard Solution
 Array Shift ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/ArrayShiftWhiteboard.jpg)
+
+
+## Code Solution
+[ArrayShift Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/ArrayShift.java)
