@@ -14,5 +14,8 @@ do the same for the right child and then we finally return the max.
 ## Acknowledgements
 Will and John guided me through this challenge.
 
-## Solution
+## Whiteboard Solution
 Find Max Value ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/FindMaxValue.jpg)
+
+## Code Solution
+[Find Max Code line 111](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/tree/Tree.java)
