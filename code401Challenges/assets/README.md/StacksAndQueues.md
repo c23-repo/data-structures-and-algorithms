@@ -13,31 +13,28 @@
   Define a method called peek that does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
   
   ### Approach & Efficiency
-  <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-  
  
-  A linear algorithm – O(n) Runtime grows directly in proportion to n
-  
- ##API
+  A linear algorithm – O(n) Runtime grows directly in proportion to n.
+  ## API
     
-```
+`
 Stack.peek 
-```
+``
 
     Stack.size
-```
+``
 Stack.push
-```
+``
     Stack.pop
-```
+``
 Queue.peek
-```
+``
     Queue.size
-```
+``
 Queue.dequeue
-```
+``
     Queue.enqueue
-```
+`
 
 ## Code Solution
 [Code](https://github.com/c23-repo/data-structures-and-algorithms/tree/master/code401Challenges/src/main/java/code401Challenges/stacksandqueues)
