@@ -15,4 +15,4 @@ we return `null`
 Luke and Will guided me through this challenge.
 
 ## Solution
-Repeated Word ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/RepeatedWord.jpeg)
+Repeated Word ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/RepeatWord.jpeg)
