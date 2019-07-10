@@ -19,4 +19,4 @@ A function should take a string as its only argument, and should return a boolea
 - Multibracket Validator Whiteboard: ![MultibracketValidator Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/MultiBracketValidation.jpg)
 
 ## Code Solution
-[Multibracket Validator](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java)
+[Multibracket Validator Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java)
