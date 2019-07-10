@@ -8,5 +8,8 @@
 ## Approach & Efficiency
 - The big O is linear and the time space complexity is big O of N.
 
-## Solution
+## Whiteboard Solution
 - Queue with Stacks Whiteboard: ![Queue with Stacks Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/QueueWithStacks.jpg)
+
+## Code Solution
+[Queue with Stacks Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/queueWithStacks/PseudoQueue.java)
