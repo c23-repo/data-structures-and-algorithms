@@ -1,5 +1,6 @@
-package code401Challenges.repeatedWord;
+package code401Challenges.repeatedWordTest;
 
+import code401Challenges.repeatedWord.RepeatedWord;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
