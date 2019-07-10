@@ -16,3 +16,6 @@ add, get, and contains all have an O(n) while hash has an O(1).
 - get: takes in a key and returns the value.
 - contains: takes in a key and returns a boolean indicating if the key exists in the table.
 - hash: takes in a key and returns an index.
+
+## Code Solution
+[Hash Table Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/hashtable/Hashtable.java)
