@@ -13,5 +13,8 @@ by 3, we set the value to "Fizz". If divisible by 5 we set it to "Buzz". If neit
 ## Acknowledgements
 Stephen, David, and John guided me through this challenge.
 
-## Solution
+## Whiteboard Solution
 FizzBuzz Tree ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/FizzBuzzTree.jpeg)
+
+## Code Solution
+[FizzBuzz Tree](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/FizzBuzzTree/FizzBuzzTree.java)
