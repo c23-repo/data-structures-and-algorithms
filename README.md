@@ -17,3 +17,10 @@ This repository has code challenges from my 301 JavaScript course and 401 Java c
 [FizzBuzz Tree](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/FizzBuzzTree.md)
 
 [Breadth First Traversal](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/BinaryTree.md)
+
+[Find Max Value](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/FindMaxValue.md)
+
+[Hash Table](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/HashTable.md)
+
+[Repeated Word](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/README.md/RepeatedWord.md)
+
