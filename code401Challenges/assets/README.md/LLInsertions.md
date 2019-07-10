@@ -10,9 +10,12 @@ the end. Create a method to merge two linked lists
 ## Approach & Efficiency
 - The big O is linear and the time space complexity is big O of N.
 
-## Solution
+## Whiteboard Solution
 - Insertion Whiteboard: ![Insertion Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LinkedListWhiteBoard.jpg)
 
 - Kth From End Whiteboard: ![Kth From End Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LL_KthFromTheTailWhiteBoard.jpg)
 
 - Merge Two Linked Lists Whiteboard: ![Kth From End Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LLMerge.jpg)
+
+## Code Solution
+[Linked Lists: Insertion, Kth From End, and Merge](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/linkedList/LinkedList.java)
