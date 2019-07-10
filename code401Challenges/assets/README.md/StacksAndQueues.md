@@ -17,7 +17,6 @@
   A linear algorithm – O(n) Runtime grows directly in proportion to n.
   ## API
     
-``
 `Stack.peek` 
 
 `Stack.size`
@@ -34,7 +33,6 @@
 
 `Queue.enqueue`
 
-``
 
 ## Code Solution
 [Code](https://github.com/c23-repo/data-structures-and-algorithms/tree/master/code401Challenges/src/main/java/code401Challenges/stacksandqueues)
