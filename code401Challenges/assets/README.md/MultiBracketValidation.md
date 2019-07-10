@@ -14,13 +14,9 @@ A function should take a string as its only argument, and should return a boolea
 - Finally check the stack one more time to see if it is null.
 - If null, all brackets had a pair in sequence.
 - Else it did not have a second pair and we return false.
-         
 
-## Big O
-- Time O(n) and Space O(1)
-
-## Acknowledgments
-- Ed Abrahamsen for helping.
-
-## Solution
+## Whiteboard Solution
 - Multibracket Validator Whiteboard: ![MultibracketValidator Whiteboard Solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/MultiBracketValidation.jpg)
+
+## Code Solution
+[Multibracket Validator](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/multibracketvalidation/MultiBracketValidation.java)
