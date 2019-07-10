@@ -17,23 +17,23 @@
   A linear algorithm – O(n) Runtime grows directly in proportion to n.
   ## API
     
-````
-Stack.peek 
-`
+```
+`Stack.peek` 
 
-    Stack.size
-`
-Stack.push
-`
-    Stack.pop
-`
-Queue.peek
-`
-    Queue.size
-`
-Queue.dequeue
-`
-    Queue.enqueue
+`Stack.size`
+
+`Stack.push`
+
+`Stack.pop`
+
+`Queue.peek`
+
+`Queue.size`
+
+`Queue.dequeue`
+
+`Queue.enqueue`
+
 ````
 
 ## Code Solution
