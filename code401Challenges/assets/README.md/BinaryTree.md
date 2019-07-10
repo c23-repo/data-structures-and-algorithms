@@ -10,5 +10,8 @@ value to a string, and then checks if that node has left or right children. If i
 from the left, if not then we ignore the null value. We break from the loop when the Queue is empty and then return the 
 string with all the values found in order.
 
-## Solution
+## Whiteboard Solution
 Breadth First Traversal ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/BreadthFirst.jpg)
+
+## Code Solution
+[Breadth First Code line 91](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/tree/Tree.java)
