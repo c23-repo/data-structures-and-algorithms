@@ -14,5 +14,8 @@ we return `null`
 ## Acknowledgements
 Luke and Will guided me through this challenge.
 
-## Solution
+## Whiteboard Solution
 Repeated Word ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/RepeatWord.jpeg)
+
+## Code Solution
+[Repeated Word Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/repeatedWord/RepeatedWord.java)
