@@ -14,7 +14,7 @@ Final step is to `add` the keys and then add the values to the subArrays. Once t
 Tree Intersection ![Whiteboard solution](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/assets/img/LeftJoin.jpg)
 
 ## Code Solution
-[Left Join Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/code401Challenges/TreeIntersection/TreeIntersection.java)
+[Left Join Code](https://github.com/c23-repo/data-structures-and-algorithms/blob/master/code401Challenges/src/main/java/leftJoin/LeftJoin.java)
 
 ## Acknowledgements
 Stephen guided me through this challenge.
