@@ -11,7 +11,7 @@ public class LinkedList extends Queue<Node> {
     static class Node {
         int data;
         Node next;
-        //Node previous;
+        //GraphNode previous;
         Node(int value){
             this.data = value;
             this.next = null;
