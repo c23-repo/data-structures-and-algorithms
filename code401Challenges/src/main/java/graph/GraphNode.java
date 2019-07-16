@@ -9,6 +9,13 @@ public class GraphNode<T> {
 
     public GraphNode(T value){
         this.setValue(value);
+        this.setNeighbors(new HashMap<>());
+    }
+
+    public void addNeighbor(GraphNode<T> node, Integer weight ){
+        HashMap<GraphNode<T>, Integer> tempHashMap = getNeighbors();
+        tempHashMap.put(node, weight);
+        setNeighbors(tempHashMap);
     }
 
     public T getValue() {
@@ -20,10 +27,10 @@ public class GraphNode<T> {
     }
 
     public HashMap<GraphNode<T>, Integer> getNeighbors() {
-        return neighbors;
+        return new HashMap<>(neighbors);
     }
 
     public void setNeighbors(HashMap<GraphNode<T>, Integer> neighbors) {
-        this.neighbors = neighbors;
+        this.neighbors = new HashMap<>(neighbors);
     }
 }
