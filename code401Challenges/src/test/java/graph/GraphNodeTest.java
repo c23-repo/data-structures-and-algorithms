@@ -31,7 +31,7 @@ public class GraphNodeTest {
     @Test
     public void testGetNeighborsEmpty() {
         assertTrue("Should return empty",
-                this.testNode.getNeighbors().equals(new HashMap<GraphNode<Integer>, Integer>())
+                this.testNode.getWeight().equals(new HashMap<GraphNode<Integer>, Integer>())
         );
     }
 
@@ -44,7 +44,7 @@ public class GraphNodeTest {
         testNeighbors.put(newNode, 3);
 
         assertTrue("Should return empty",
-                this.testNode.getNeighbors().equals(testNeighbors)
+                this.testNode.getWeight().equals(testNeighbors)
         );
     }
 }
