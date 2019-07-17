@@ -9,13 +9,49 @@ import java.util.HashMap;
 
 import static org.junit.Assert.*;
 
+
+// Worked with Stephen
+
 public class GraphTest {
 
     public Graph<Integer> testGraph;
+    public Graph<Integer> testBreadthGraph1;
+    public Graph<Integer> testBreadthGraph2;
+
 
     @Before
     public void setTestGraph(){
         this.testGraph = new Graph<>();
+    }
+
+    @Before
+    public void setTestBreadthGraph1(){
+
+        testBreadthGraph1 = new Graph<>();
+        testBreadthGraph1.addNode(10);
+        testBreadthGraph1.addNode(20);
+        testBreadthGraph1.addNode(30);
+        testBreadthGraph1.addNode(40);
+
+        GraphNode<Integer> node1 = testBreadthGraph1.getNodes().get(0);
+        GraphNode<Integer> node2 = testBreadthGraph1.getNodes().get(1);
+        GraphNode<Integer> node3 = testBreadthGraph1.getNodes().get(2);
+
+        testBreadthGraph1.addEdge(node1, node2, 15);
+        testBreadthGraph1.addEdge(node1, node3, 30);
+    }
+
+    @Before
+    public void setTestBreadthGraph2(){
+
+        testBreadthGraph2 = new Graph<>();
+        testBreadthGraph2.addNode(10);
+        testBreadthGraph2.addNode(20);
+        testBreadthGraph2.addNode(30);
+        testBreadthGraph2.addNode(40);
+        testBreadthGraph2.addNode(50);
+        testBreadthGraph2.addNode(60);
+
     }
 
     @Test

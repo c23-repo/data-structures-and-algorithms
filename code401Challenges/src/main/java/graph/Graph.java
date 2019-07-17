@@ -1,7 +1,10 @@
 package graph;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.HashSet;
+
+
+// Worked with Stephen
 
 public class Graph<T> {
 
@@ -28,12 +31,42 @@ public class Graph<T> {
 
     }
 
-    public HashMap<GraphNode<T>, Integer> getNeighbors(GraphNode<T> node){
+    public ArrayList<GraphNode<T>> getNeighbors(GraphNode<T> node){
         return node.getNeighbors();
     }
 
+
     public int size(){
         return this.getNodes().size();
+    }
+
+    public ArrayList<T> breadthFirst(GraphNode<T> node) {
+
+        ArrayList<T> answer = new ArrayList<>();
+        HashSet<GraphNode<T>> visited = new HashSet<>();
+        ArrayList<GraphNode<T>> queue = new ArrayList<>();
+        GraphNode<T> holder;
+
+        if (getNodes().contains(node)) {
+
+            visited.add(node);
+            queue.add(node);
+
+            while (!queue.isEmpty()){
+                holder = queue.remove(0);
+
+                for (GraphNode<T> checked : holder.getNeighbors()){
+                    if (visited.add(checked)){
+
+                        queue.add(checked);
+                    }
+                }
+
+                answer.add(holder.getValue());
+            }
+
+        }
+        return answer;
     }
 
 
