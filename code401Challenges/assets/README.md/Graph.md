@@ -45,3 +45,6 @@ All methods have an O(n)
 
 `Size`
 - Returns the total number of nodes in the graph
+
+## Acknowledgments
+Stephen helped me with this lab.
