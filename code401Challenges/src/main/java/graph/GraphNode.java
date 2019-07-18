@@ -15,12 +15,16 @@ public class GraphNode<T> {
     public GraphNode(T value){
         this.setValue(value);
         this.setWeight(new HashMap<>());
+        this.setNeighbors(new ArrayList<>());
     }
 
     public void addNeighbor(GraphNode<T> node, Integer weight ){
+        ArrayList<GraphNode<T>> tempNodes = getNeighbors();
         HashMap<GraphNode<T>, Integer> tempHashMap = getWeight();
         tempHashMap.put(node, weight);
         setWeight(tempHashMap);
+        tempNodes.add(node);
+        setNeighbors(tempNodes);
     }
 
     public T getValue() {
